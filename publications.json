@@ -1,0 +1,470 @@
+[
+  {
+    "id": "tmi2026",
+    "title": "Beyond Correlation: Causal Intervention for Multi-Label Medical Image Diagnosis",
+    "authors": "Jianyang Xie, Yitian Zhao, Xiuju Chen, Yanda Meng, He Zhao, Uzaman Alam, Xiaoxin Li, Yalin Zheng",
+    "venue": "IEEE Transactions on Medical Imaging · 2026",
+    "year": 2026,
+    "image": "assets/thumb-tmi-real.png",
+    "links": [
+      [
+        "Paper / DOI",
+        "https://doi.org/10.1109/TMI.2026.3698052"
+      ],
+      [
+        "Code",
+        "https://github.com/davelailai/BankCausal"
+      ]
+    ]
+  },
+  {
+    "id": "cvpr2025",
+    "title": "Are Spatial-Temporal Graph Convolution Networks for Human Action Recognition Over-Parameterized?",
+    "authors": "Jianyang Xie, Yitian Zhao, Yanda Meng, He Zhao, Anh Nguyen, Yalin Zheng",
+    "venue": "CVPR · 2025",
+    "year": 2025,
+    "image": "assets/thumb-cvpr-real.png",
+    "links": [
+      [
+        "Paper",
+        "https://openaccess.thecvf.com/content/CVPR2025/html/Xie_Are_Spatial-Temporal_Graph_Convolution_Networks_for_Human_Action_Recognition_Over-Parameterized_CVPR_2025_paper.html"
+      ],
+      [
+        "PDF",
+        "https://openaccess.thecvf.com/content/CVPR2025/papers/Xie_Are_Spatial-Temporal_Graph_Convolution_Networks_for_Human_Action_Recognition_Over-Parameterized_CVPR_2025_paper.pdf"
+      ],
+      [
+        "Code",
+        "https://github.com/davelailai/Sparse-ST-GCN"
+      ]
+    ]
+  },
+  {
+    "id": "tip2024",
+    "title": "Dynamic Semantic-Based Spatial-Temporal Graph Convolution Network for Skeleton-Based Human Action Recognition",
+    "authors": "Jianyang Xie, Yanda Meng, Yitian Zhao, Anh Nguyen, Xiaoyun Yang, Yalin Zheng",
+    "venue": "IEEE Transactions on Image Processing · 2024",
+    "year": 2024,
+    "image": "assets/thumb-tip-real.png",
+    "links": [
+      [
+        "Paper",
+        "https://doi.org/10.1109/TIP.2024.3497837"
+      ],
+      [
+        "PDF",
+        "https://www.csc.liv.ac.uk/~anguyen/assets/pdfs/2024_TIP_HAR.pdf"
+      ],
+      [
+        "Code",
+        "https://github.com/davelailai/DS-STGCN"
+      ]
+    ]
+  },
+  {
+    "id": "miccai2024",
+    "title": "Multi-disease Detection in Retinal Images Guided by Disease Causal Estimation",
+    "authors": "Jianyang Xie, Xiuju Chen, Yitian Zhao, Yanda Meng, He Zhao, Anh Nguyen, Xiaoxin Li, Yalin Zheng",
+    "venue": "MICCAI · 2024",
+    "year": 2024,
+    "image": "assets/thumb-miccai-real.png",
+    "links": [
+      [
+        "Paper",
+        "https://papers.miccai.org/miccai-2024/541-Paper0973.html"
+      ],
+      [
+        "PDF",
+        "https://papers.miccai.org/miccai-2024/paper/0973_paper.pdf"
+      ],
+      [
+        "Code + Data",
+        "https://github.com/davelailai/multi-disease-detection-guided-by-causal-estimation"
+      ]
+    ]
+  },
+  {
+    "id": "aaai2024",
+    "title": "Dynamic Semantic-Based Spatial Graph Convolution Network for Skeleton-Based Human Action Recognition",
+    "authors": "Jianyang Xie, Yanda Meng, Yitian Zhao, Anh Nguyen, Xiaoyun Yang, Yalin Zheng",
+    "venue": "AAAI · 2024",
+    "year": 2024,
+    "image": "assets/thumb-aaai-real.png",
+    "links": [
+      [
+        "Paper",
+        "https://ojs.aaai.org/index.php/AAAI/article/view/28440"
+      ],
+      [
+        "Code",
+        "https://github.com/davelailai/DS-GCN"
+      ],
+      [
+        "PDF",
+        "https://ojs.aaai.org/index.php/AAAI/article/view/28440/28858"
+      ]
+    ]
+  },
+  {
+    "id": "bjo",
+    "title": "Deep Segmentation of OCTA for Evaluation and Association of Changes of Retinal Microvasculature with Alzheimer's Disease and Mild Cognitive Impairment",
+    "authors": "Jianyang Xie, Quanyong Yi, Yufei Wu, Yalin Zheng, et al.",
+    "venue": "British Journal of Ophthalmology · 2024 (online 2023)",
+    "year": 2024,
+    "image": "assets/thumb-bjo-real.png",
+    "links": [
+      [
+        "Paper",
+        "https://doi.org/10.1136/bjo-2022-321399"
+      ],
+      [
+        "PDF",
+        "https://bjo.bmj.com/content/bjophthalmol/early/2023/01/03/bjo-2022-321399.full.pdf"
+      ],
+      [
+        "Open access",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10894818/"
+      ]
+    ]
+  },
+  {
+    "id": "paper30",
+    "title": "Multi-granularity learning of explicit geometric constraint and contrast for label-efficient medical image segmentation and differentiable clinical function assessment",
+    "authors": "Yanda Meng, Yuchen Zhang, Jianyang Xie, et al.",
+    "year": 2024,
+    "venue": "Medical Image Analysis · 2024",
+    "image": "",
+    "links": [
+      [
+        "Find paper",
+        "https://scholar.google.com/scholar?q=%22Multi-granularity%20learning%20of%20explicit%20geometric%20constraint%20and%20contrast%20for%20label-efficient%20medical%20image%20segmentation%20and%20differentiable%20clinical%20function%20assessment%22"
+      ]
+    ]
+  },
+  {
+    "id": "paper22",
+    "title": "Retinal microvasculature and imaging markers of brain frailty in normal aging adults",
+    "authors": "Wendan Tao, William Robert Kwapong, Jianyang Xie, et al.",
+    "year": 2022,
+    "venue": "Frontiers in Aging Neuroscience · 2022",
+    "image": "",
+    "links": [
+      [
+        "Find paper",
+        "https://scholar.google.com/scholar?q=%22Retinal%20microvasculature%20and%20imaging%20markers%20of%20brain%20frailty%20in%20normal%20aging%20adults%22"
+      ]
+    ]
+  },
+  {
+    "id": "paper24",
+    "title": "Evaluation of Ocular Surface Characteristics in Dry Eye Disease With and Without Soft Contact Lens Wear",
+    "authors": "Tingting Yang, Baikai Ma, Jianyang Xie, et al.",
+    "year": 2022,
+    "venue": "Eye & Contact Lens · 2022",
+    "image": "",
+    "links": [
+      [
+        "Find paper",
+        "https://scholar.google.com/scholar?q=%22Evaluation%20of%20Ocular%20Surface%20Characteristics%20in%20Dry%20Eye%20Disease%20With%20and%20Without%20Soft%20Contact%20Lens%20Wear%22"
+      ]
+    ]
+  },
+  {
+    "id": "paper27",
+    "title": "Topology-Aware Learning for Semi-supervised Cross-domain Retinal Artery/Vein Classification",
+    "authors": "Hanlin Liu, Jianyang Xie, Yonghuai Liu, et al.",
+    "year": 2022,
+    "venue": "CGI · 2022",
+    "image": "",
+    "links": [
+      [
+        "Find paper",
+        "https://scholar.google.com/scholar?q=%22Topology-Aware%20Learning%20for%20Semi-supervised%20Cross-domain%20Retinal%20Artery/Vein%20Classification%22"
+      ]
+    ]
+  },
+  {
+    "id": "paper28",
+    "title": "Differences in retinal microvasculature between large artery atherosclerosis and small artery disease",
+    "authors": "Xuening Zhang, William Robert Kwapong, Jiang Shuai, Jianyang Xie, et al.",
+    "year": 2022,
+    "venue": "Frontiers in Aging Neuroscience · 2022",
+    "image": "",
+    "links": [
+      [
+        "Find paper",
+        "https://scholar.google.com/scholar?q=%22Differences%20in%20retinal%20microvasculature%20between%20large%20artery%20atherosclerosis%20and%20small%20artery%20disease%22"
+      ]
+    ]
+  },
+  {
+    "id": "paper29",
+    "title": "Characterization of the Retinal Microvasculature and FAZ Changes in Ischemic Stroke and Its Different Types",
+    "authors": "Hongyu Duan, Jianyang Xie, et al.",
+    "year": 2022,
+    "venue": "TVST · 2022",
+    "image": "",
+    "links": [
+      [
+        "Find paper",
+        "https://scholar.google.com/scholar?q=%22Characterization%20of%20the%20Retinal%20Microvasculature%20and%20FAZ%20Changes%20in%20Ischemic%20Stroke%20and%20Its%20Different%20Types%22"
+      ]
+    ]
+  },
+  {
+    "id": "paper10",
+    "title": "Quantification of increased corneal subbasal nerve tortuosity in dry eye disease and its correlation with clinical parameters",
+    "authors": "Baikai Ma, Jianyang Xie, Tingting Yang, et al. (Co-first Author)",
+    "year": 2021,
+    "venue": "TVST · 2021",
+    "image": "",
+    "links": [
+      [
+        "Find paper",
+        "https://scholar.google.com/scholar?q=%22Quantification%20of%20increased%20corneal%20subbasal%20nerve%20tortuosity%20in%20dry%20eye%20disease%20and%20its%20correlation%20with%20clinical%20parameters%22"
+      ]
+    ]
+  },
+  {
+    "id": "paper14",
+    "title": "ROSE: A Retinal OCT-Angiography Vessel Segmentation Dataset and New Model",
+    "authors": "Yuhui Ma, Huaying Hao, Jianyang Xie, et al.",
+    "year": 2021,
+    "venue": "IEEE TMI · 2021",
+    "image": "",
+    "links": [
+      [
+        "Find paper",
+        "https://scholar.google.com/scholar?q=%22ROSE%3A%20A%20Retinal%20OCT-Angiography%20Vessel%20Segmentation%20Dataset%20and%20New%20Model%22"
+      ]
+    ]
+  },
+  {
+    "id": "paper15",
+    "title": "3D Vessel Reconstruction in OCT-Angiography via Depth Map Estimation",
+    "authors": "Shuai Yu, Jianyang Xie, et al.",
+    "year": 2021,
+    "venue": "ISBI · 2021",
+    "image": "",
+    "links": [
+      [
+        "Find paper",
+        "https://scholar.google.com/scholar?q=%223D%20Vessel%20Reconstruction%20in%20OCT-Angiography%20via%20Depth%20Map%20Estimation%22"
+      ]
+    ]
+  },
+  {
+    "id": "paper23",
+    "title": "Superficial Macula Capillary Complexity Changes Are Associated With Disability in Neuromyelitis Optica Spectrum Disorders",
+    "authors": "Ruili Wei, Jianyang Xie, et al.",
+    "year": 2021,
+    "venue": "Frontiers in Neurology · 2021",
+    "image": "",
+    "links": [
+      [
+        "Find paper",
+        "https://scholar.google.com/scholar?q=%22Superficial%20Macula%20Capillary%20Complexity%20Changes%20Are%20Associated%20With%20Disability%20in%20Neuromyelitis%20Optica%20Spectrum%20Disorders%22"
+      ]
+    ]
+  },
+  {
+    "id": "paper25",
+    "title": "Outer retinal layer thickness changes in white matter hyperintensity and Parkinson's disease",
+    "authors": "Yitian Zhao, Jinyu Zhao, et al., Jianyang Xie, et al.",
+    "year": 2021,
+    "venue": "Frontiers in Neuroscience · 2021",
+    "image": "",
+    "links": [
+      [
+        "Find paper",
+        "https://scholar.google.com/scholar?q=%22Outer%20retinal%20layer%20thickness%20changes%20in%20white%20matter%20hyperintensity%20and%20Parkinson%27s%20disease%22"
+      ]
+    ]
+  },
+  {
+    "id": "paper26",
+    "title": "Cross-domain depth estimation network for 3D vessel reconstruction in OCT angiography",
+    "authors": "Shuai Yu, Yonghuai Liu, Jiong Zhang, Jianyang Xie, et al.",
+    "year": 2021,
+    "venue": "MICCAI · 2021",
+    "image": "",
+    "links": [
+      [
+        "Find paper",
+        "https://scholar.google.com/scholar?q=%22Cross-domain%20depth%20estimation%20network%20for%203D%20vessel%20reconstruction%20in%20OCT%20angiography%22"
+      ]
+    ]
+  },
+  {
+    "id": "paper7",
+    "title": "Classification of Retinal Vessels into Artery-Vein in OCT Angiography Guided by Fundus Images",
+    "authors": "Jianyang Xie, Yonghuai Liu, Yalin Zheng, Pan Su, Yan Hu, Jian Yang, Jiang Liu, Yitian Zhao",
+    "year": 2020,
+    "venue": "MICCAI · 2020",
+    "image": "",
+    "links": [
+      [
+        "Find paper",
+        "https://scholar.google.com/scholar?q=%22Classification%20of%20Retinal%20Vessels%20into%20Artery-Vein%20in%20OCT%20Angiography%20Guided%20by%20Fundus%20Images%22"
+      ]
+    ]
+  },
+  {
+    "id": "paper12",
+    "title": "Retinal Vascular Network Topology Reconstruction and Artery/Vein Classification via Dominant Set Clustering",
+    "authors": "Yitian Zhao, Jianyang Xie, Huaizhong Zhang, et al.",
+    "year": 2020,
+    "venue": "IEEE TMI · 2020",
+    "image": "",
+    "links": [
+      [
+        "Find paper",
+        "https://scholar.google.com/scholar?q=%22Retinal%20Vascular%20Network%20Topology%20Reconstruction%20and%20Artery/Vein%20Classification%20via%20Dominant%20Set%20Clustering%22"
+      ]
+    ]
+  },
+  {
+    "id": "paper18",
+    "title": "Automated Tortuosity Analysis of Nerve Fibers in Corneal Confocal Microscopy",
+    "authors": "Yitian Zhao, Jiong Zhang, et al., Jianyang Xie, et al.",
+    "year": 2020,
+    "venue": "IEEE TMI · 2020",
+    "image": "",
+    "links": [
+      [
+        "Find paper",
+        "https://scholar.google.com/scholar?q=%22Automated%20Tortuosity%20Analysis%20of%20Nerve%20Fibers%20in%20Corneal%20Confocal%20Microscopy%22"
+      ]
+    ]
+  },
+  {
+    "id": "paper19",
+    "title": "A Density and Reliability Guided Aggregation for the Assessment of Vessels and Nerve Fibres Tortuosity",
+    "authors": "Pan Su, Tianhua Chen, Jianyang Xie, et al.",
+    "year": 2020,
+    "venue": "IEEE Access · 2020",
+    "image": "",
+    "links": [
+      [
+        "Find paper",
+        "https://scholar.google.com/scholar?q=%22A%20Density%20and%20Reliability%20Guided%20Aggregation%20for%20the%20Assessment%20of%20Vessels%20and%20Nerve%20Fibres%20Tortuosity%22"
+      ]
+    ]
+  },
+  {
+    "id": "paper20",
+    "title": "Corneal Nerve Tortuosity Grading via Ordered Weighted Averaging-based Feature Extraction",
+    "authors": "Pan Su, Tianhua Chen, Jianyang Xie, et al.",
+    "year": 2020,
+    "venue": "Medical Physics · 2020",
+    "image": "",
+    "links": [
+      [
+        "Find paper",
+        "https://scholar.google.com/scholar?q=%22Corneal%20Nerve%20Tortuosity%20Grading%20via%20Ordered%20Weighted%20Averaging-based%20Feature%20Extraction%22"
+      ]
+    ]
+  },
+  {
+    "id": "cvpr2019",
+    "title": "Topology Reconstruction of Tree-like Structure in Images via Structural Similarity Measure and Dominant Set Clustering",
+    "authors": "Jianyang Xie, Yitian Zhao, Yonghuai Liu, Pan Su, Yalin Zheng, Yifan Zhao, Jun Cheng, Jiang Liu",
+    "venue": "CVPR · 2019",
+    "year": 2019,
+    "image": "assets/thumb-cvpr2019-real.png",
+    "links": [
+      [
+        "PDF",
+        "https://openaccess.thecvf.com/content_CVPR_2019/papers/Xie_Topology_Reconstruction_of_Tree-Like_Structure_in_Images_via_Structural_Similarity_CVPR_2019_paper.pdf"
+      ],
+      [
+        "Paper",
+        "https://openaccess.thecvf.com/content_CVPR_2019/html/Xie_Topology_Reconstruction_of_Tree-Like_Structure_in_Images_via_Structural_Similarity_CVPR_2019_paper.html"
+      ]
+    ]
+  },
+  {
+    "id": "paper16",
+    "title": "On the Application of Preaggregation Functions to Fuzzy Pattern Tree",
+    "authors": "Pan Su, Tianhua Chen, Haoyu Mao, Jianyang Xie, et al.",
+    "year": 2019,
+    "venue": "FUZZ-IEEE · 2019",
+    "image": "",
+    "links": [
+      [
+        "Find paper",
+        "https://scholar.google.com/scholar?q=%22On%20the%20Application%20of%20Preaggregation%20Functions%20to%20Fuzzy%20Pattern%20Tree%22"
+      ]
+    ]
+  },
+  {
+    "id": "paper17",
+    "title": "Exploiting Reliability-guided Aggregation for the Assessment of Curvilinear Structure Tortuosity",
+    "authors": "Pan Su, Yitian Zhao, Tianhua Chen, Jianyang Xie, et al.",
+    "year": 2019,
+    "venue": "MICCAI · 2019",
+    "image": "",
+    "links": [
+      [
+        "Find paper",
+        "https://scholar.google.com/scholar?q=%22Exploiting%20Reliability-guided%20Aggregation%20for%20the%20Assessment%20of%20Curvilinear%20Structure%20Tortuosity%22"
+      ]
+    ]
+  },
+  {
+    "id": "paper9",
+    "title": "Retinal vascular topology estimation via dominant sets clustering",
+    "authors": "Jianyang Xie, Yitian Zhao, Yalin Zheng, Pan Su, Jiang Liu, Yongtian Wang",
+    "year": 2018,
+    "venue": "ISBI · 2018",
+    "image": "",
+    "links": [
+      [
+        "Find paper",
+        "https://scholar.google.com/scholar?q=%22Retinal%20vascular%20topology%20estimation%20via%20dominant%20sets%20clustering%22"
+      ]
+    ]
+  },
+  {
+    "id": "paper11",
+    "title": "Retinal vascular segmentation using superpixel-based line operator and its application to vascular topology estimation",
+    "authors": "Tong Na, Jianyang Xie, Yitian Zhao, et al. (Co-first Author)",
+    "year": 2018,
+    "venue": "Medical Physics · 2018",
+    "image": "",
+    "links": [
+      [
+        "Find paper",
+        "https://scholar.google.com/scholar?q=%22Retinal%20vascular%20segmentation%20using%20superpixel-based%20line%20operator%20and%20its%20application%20to%20vascular%20topology%20estimation%22"
+      ]
+    ]
+  },
+  {
+    "id": "paper13",
+    "title": "Retinal Artery and Vein Classification via Dominant Sets Clustering-based Vascular Topology Estimation",
+    "authors": "Yitian Zhao, Jianyang Xie, Yalin Zheng, et al.",
+    "year": 2018,
+    "venue": "MICCAI · 2018",
+    "image": "",
+    "links": [
+      [
+        "Find paper",
+        "https://scholar.google.com/scholar?q=%22Retinal%20Artery%20and%20Vein%20Classification%20via%20Dominant%20Sets%20Clustering-based%20Vascular%20Topology%20Estimation%22"
+      ]
+    ]
+  },
+  {
+    "id": "paper21",
+    "title": "Automatic Localization of Optic Disc using Modified U-Net",
+    "authors": "Zaiwang Gu, Shanshan Jiang, Jimmy Lee, Jianyang Xie, et al.",
+    "year": 2018,
+    "venue": "ICCCV · 2018",
+    "image": "",
+    "links": [
+      [
+        "Find paper",
+        "https://scholar.google.com/scholar?q=%22Automatic%20Localization%20of%20Optic%20Disc%20using%20Modified%20U-Net%22"
+      ]
+    ]
+  }
+]
