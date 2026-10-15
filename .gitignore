@@ -1,0 +1,9 @@
+# Local files and LaTeX build products
+.DS_Store
+cv/*.aux
+cv/*.log
+cv/*.out
+cv/*.fls
+cv/*.fdb_latexmk
+cv/main.pdf
+cv/*.synctex.gz

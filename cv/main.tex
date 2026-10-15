@@ -1,0 +1,208 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[top=19mm,bottom=21mm,left=22mm,right=22mm]{geometry}
+\usepackage{enumitem,titlesec,fancyhdr,tabularx,needspace,xcolor}
+\definecolor{accent}{HTML}{233F58}
+\definecolor{muted}{HTML}{596773}
+\definecolor{rulegray}{HTML}{CDD5DB}
+\newcommand{\cventry}[3]{%
+  \par\addvspace{6pt}\Needspace{5\baselineskip}%
+  \begin{tabularx}{\linewidth}{@{}X r@{}}%
+    {\bfseries #1} & {\small\sffamily\color{muted}#3}\\%
+    \multicolumn{2}{@{}p{\linewidth}@{}}{{\itshape\color{muted}#2}}%
+  \end{tabularx}\par\nobreak}
+
+\usepackage[hidelinks]{hyperref}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\linespread{1.035}
+\raggedbottom
+\clubpenalty=10000
+\widowpenalty=10000
+\setlist[itemize]{leftmargin=1.3em,itemsep=3pt,topsep=3pt}
+\titleformat{\section}{\large\sffamily\bfseries\color{accent}}{}{0pt}{}[\vspace{2pt}{\color{rulegray}\titlerule}]
+\titlespacing*{\section}{0pt}{16pt}{8pt}
+\pagestyle{fancy}\fancyhf{}
+\fancyfoot[L]{\footnotesize\sffamily\color{muted}Jianyang Xie\quad /\quad Academic CV}
+\fancyfoot[R]{\footnotesize\sffamily\color{muted}\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\setlength{\emergencystretch}{3em}
+\begin{document}
+{\fontsize{30}{34}\selectfont\sffamily\bfseries\color{accent}Jianyang Xie}\par
+\vspace{2pt}
+{\small\sffamily\color{muted}ACADEMIC CURRICULUM VITAE}\par
+\vspace{6pt}
+{\small
+\href{mailto:Jianyang.Xie2@liverpool.ac.uk}{Jianyang.Xie2@liverpool.ac.uk}
+\quad\textcolor{rulegray}{|}\quad 07536136685\\[3pt]
+Website: \url{https://jianyang-xie.github.io/}
+\\[3pt]
+Google Scholar: \url{https://scholar.google.com/citations?user=igrurhYAAAAJ}}
+\vspace{5pt}
+
+% Current employment confirmed by user; contractual job titles remain pending confirmation.
+\section{Academic Appointments and Research Experience}
+\cventry{Postdoctoral Research Assistance}{University of Liverpool}{Aug 2025 -- present}
+\begin{itemize}
+\item Project: Development of AI-powered diagnostic tools for the accurate prediction of Dementia.
+\item Responsibilities: Developed a foundation model for corneal confocal microscopy images and completed the development of AI-powered diagnostic tools for dementia diagnosis and prediction.
+\end{itemize}
+\cventry{Postdoctoral Researcher (Part-Time)}{University of Liverpool}{Aug 2024 -- Aug 2025}
+\begin{itemize}
+\item Project: Development of AI-powered diagnostic tools for the accurate prediction of diabetic neuropathy.
+\item Responsibilities: Developing models for longitudinal dataset analysis, especially for corneal confocal microscopy images.
+\end{itemize}
+\cventry{Research Assistant (Part-Time)}{University of Liverpool}{Jul 2023 -- Aug 2023}
+\begin{itemize}
+\item Project: AI-powered segmentation and analysis of the anterior segment of the mouse eye.
+\item Responsibilities: Developed segmentation methods for anterior structures and extracted biomarkers for clinical statistical analysis.
+\end{itemize}
+\cventry{Research Assistant}{Cixi Institute of Biomedical Engineering, Ningbo Institute of Industrial Technology, CAS}{Jun 2018 -- Nov 2021}
+\begin{itemize}
+\item Field: Medical image analysis.
+\item Responsibilities: Conducted research and development in advanced medical imaging techniques, focusing on algorithm design and implementation for biomedical applications.
+\end{itemize}
+\section{Education}
+\cventry{PhD}{University of Liverpool}{Dec 2021 -- Dec 2025}
+Period of study as shown above; degree awarded: Mar 2026\\
+Centre for Doctoral Training in Distributed Algorithms.\\
+Project: AI-based human action recognition.
+
+\cventry{MSc}{Beijing Institute of Technology}{Sep 2016 -- Jun 2018}
+Medical Image Processing. Research: retinal vessel topology estimation and artery--vein classification.
+
+\cventry{BEng}{Beijing Institute of Technology}{Sep 2012 -- Jul 2016}
+Photoelectric Information Engineering.
+
+\section{Research Funding and Projects}
+Exploration Project by the Zhejiang Provincial Natural Science Foundation (China), "Automatic Analysis of Corneal Nerve Curvature for Clinical Diagnosis of Diabetes," Grant Number Q20F030009. Project Duration: January 2020 to December 2022. Funding: 100,000 RMB. Role: Project Manager.
+
+\section{Publications}
+\small
+\subsection*{Journal Articles}
+\textbf{First or co-first author publications}\par
+\begin{enumerate}[label={\textcolor{accent}{\sffamily\footnotesize J\arabic*}},leftmargin=2.5em,itemsep=8pt,parsep=0pt]
+% J1 / previous J1 / original P01
+\item \textbf{Jianyang Xie}, Yitian Zhao, Xiuju Chen, Yanda Meng, He Zhao, Uazman Alam, Xiaoxin Li, Yalin Zheng. Beyond Correlation: Causal Intervention for Multi-Label Medical Image Diagnosis. \textit{IEEE Transactions on Medical Imaging}, 2026. \href{https://doi.org/10.1109/TMI.2026.3698052}{doi: 10.1109/TMI.2026.3698052}.
+% J2 / previous J5 / original P03
+\item \textbf{Jianyang Xie}, Yanda Meng, Yitian Zhao, Anh Nguyen, Xiaoyun Yang, Yalin Zheng. Dynamic Semantic-Based Spatial-Temporal Graph Convolution Network for Skeleton-Based Human Action Recognition. \textit{IEEE Transactions on Image Processing}, 33: 6691--6704, 2024. \href{https://doi.org/10.1109/TIP.2024.3497837}{doi: 10.1109/TIP.2024.3497837}.
+% J3 / previous J6 / original P06
+\item \textbf{Jianyang Xie}\textsuperscript{\dag}, Quanyong Yi\textsuperscript{\dag}, Yufei Wu\textsuperscript{\dag}, Yalin Zheng, Yonghuai Liu, Antonella Macerollo, Huazhu Fu, Yanwu Xu, Jiong Zhang, Ardhendu Behera, Chenlei Fan, Alejandro F. Frangi, Jiang Liu, Qinkang Lu, Hong Qi, Yitian Zhao. Deep segmentation of OCTA for evaluation and association of changes of retinal microvasculature with Alzheimer’s disease and mild cognitive impairment. \textit{British Journal of Ophthalmology}, 108(3): 432--439, 2024. \href{https://doi.org/10.1136/bjo-2022-321399}{doi: 10.1136/bjo-2022-321399}.
+% J4 / previous J16 / original P10
+\item Baikai Ma\textsuperscript{\dag}, \textbf{Jianyang Xie}\textsuperscript{\dag}, Tingting Yang, Pan Su, Rongjun Liu, Tong Sun, Yifan Zhou, Haiwei Wang, Xue Feng, Siyi Ma, Yitian Zhao, Hong Qi. Quantification of increased corneal subbasal nerve tortuosity in dry eye disease and its correlation with clinical parameters. \textit{Translational Vision Science \& Technology}, 10(6): 26, 2021.
+% J5 / previous J26 / original P11
+\item Tong Na\textsuperscript{\dag}, \textbf{Jianyang Xie}\textsuperscript{\dag}, Yitian Zhao, Yifan Zhao, Yue Liu, Yongtian Wang, Jiang Liu. Retinal vascular segmentation using superpixel-based line operator and its application to vascular topology estimation. \textit{Medical Physics}, 45(7): 3132--3146, 2018. \href{https://doi.org/10.1002/mp.12953}{doi: 10.1002/mp.12953}.
+\end{enumerate}
+\textbf{Manuscripts under review or revision}\par
+\begin{enumerate}[start=6,label={\textcolor{accent}{\sffamily\footnotesize J\arabic*}},leftmargin=2.5em,itemsep=8pt,parsep=0pt]
+% J6 / previous R1
+% Under revision (major revision). Only Jianyang Xie displayed, as explicitly requested by user; this is not a claim of sole authorship.
+\item \textbf{Jianyang Xie}. Trustworthy Multi-Label Medical Image Diagnosis via Prototype-Level Counterfactual Interventions. \textit{Medical Image Analysis}. \textbf{Under revision (major revision).}
+% J7 / previous U1
+% Under review; not accepted or published.
+\item \textbf{Jianyang Xie}, Xiuju Chen, Bingjie Yan, Mostafa Daho, Yanda Meng, Sarah Coupland, Heinrich Heimann, Rumana Hussain, Mohammed Lazouni, Mohammed Brixi-Nigassa, Quanyong Yi, Yitian Zhao, Danli Shi, Xiaoxin Li，Yalin Zheng. UWF-FM: A Foundation Model for Comprehensive Ultra-Widefield Retinal Assessment. \textit{Nature Communications}. \textbf{Under review.}
+\end{enumerate}
+\subsection*{Conference Papers --- First or Co-first Author}
+\begin{enumerate}[label={\textcolor{accent}{\sffamily\footnotesize C\arabic*}},leftmargin=2.5em,itemsep=8pt,parsep=0pt]
+% C1 / MICCAI 2026 verified
+\item \textbf{Jianyang Xie}, Yitian Zhao, Yanda Meng, Hao Zhang, Uazman Alam, Yalin Zheng. Multi-Disease Diagnosis in Retinal Images via Patch-Level Reasoning and Selective Aggregation. \textit{MICCAI 2026}.
+% C2 / previous C2 / original P02
+\item \textbf{Jianyang Xie}, Yitian Zhao, Yanda Meng, He Zhao, Anh Nguyen, Yalin Zheng. Are Spatial-Temporal Graph Convolution Networks for Human Action Recognition Over-Parameterized? \textit{CVPR 2025}: 24309--24319.
+% C3 / previous C7 / original P04
+\item \textbf{Jianyang Xie}, Xiuju Chen, Yitian Zhao, Yanda Meng, He Zhao, Anh Nguyen, Xiaoxin Li, Yalin Zheng. Multi-disease Detection in Retinal Images Guided by Disease Causal Estimation. \textit{MICCAI 2024}: 743--753. \href{https://doi.org/10.1007/978-3-031-72378-0_69}{doi: 10.1007/978-3-031-72378-0\_69}.
+% C4 / previous C8 / original P05
+\item \textbf{Jianyang Xie}, Yanda Meng, Yitian Zhao, Anh Nguyen, Xiaoyun Yang, Yalin Zheng. Dynamic Semantic-Based Spatial Graph Convolution Network for Skeleton-Based Human Action Recognition. \textit{Proceedings of the AAAI Conference on Artificial Intelligence}, 38(6): 6225--6233, 2024.
+% C5 / previous C14 / original P07
+\item \textbf{Jianyang Xie}, Yonghuai Liu, Yalin Zheng, Pan Su, Yan Hu, Jian Yang, Jiang Liu, Yitian Zhao. Classification of Retinal Vessels into Artery-Vein in OCT Angiography Guided by Fundus Images. \textit{MICCAI 2020}: 117--127.
+% C6 / previous C15 / original P08
+\item \textbf{Jianyang Xie}, Yitian Zhao, Yonghuai Liu, Pan Su, Yifan Zhao, Jun Cheng, Yalin Zheng, Jiang Liu. Topology Reconstruction of Tree-like Structure in Images via Structural Similarity Measure and Dominant Set Clustering. \textit{CVPR 2019}.
+% C7 / previous C19 / original P09
+\item \textbf{Jianyang Xie}, Yitian Zhao, Yalin Zheng, Pan Su, Jiang Liu, Yongtian Wang. Retinal vascular topology estimation via dominant sets clustering. \textit{ISBI 2018}: 1458--1462.
+\end{enumerate}
+\subsection*{Other Co-authored Publications}
+\begin{enumerate}[label={\textcolor{accent}{\sffamily\footnotesize O\arabic*}},leftmargin=2.5em,itemsep=8pt,parsep=0pt]
+% O1 / MICCAI 2026 verified
+\item Yuheng Fan, Hongyi Qin, \textbf{Jianyang Xie}, Zhengju Chen, Yimin Luo, Uazman Alam, Gregory Y. H. Lip, Li Cheng, Yalin Zheng, He Zhao. Interpretable Longitudinal Disease Forecasting with Graph-Based Multimodal Encoding and Population-Aware Language Generation. \textit{MICCAI 2026}.
+% O2 / MICCAI 2026 verified
+\item Feixiang Zhou, \textbf{Jianyang Xie}, Zhuangzhi Gao, Qinkai Yu, Jing Li, Long Chen, Zheheng Jiang, Yitian Zhao, Yanda Meng, He Zhao, Gregory Y. H. Lip, Yalin Zheng. Towards Class-Aware Semantic Decoupling in Multi-modal Disease Diagnosis with Missing Modalities. \textit{MICCAI 2026}.
+% O3 / previous J2
+\item Hao Zhang, Liping Wang, Yitian Zhao, \textbf{Jianyang Xie}, Tiyu Fang, Ran Song, Wei Zhang. Heterophily-Aware Spectral GCN for Population-Level Brain Disorder Prediction. \textit{IEEE Journal of Biomedical and Health Informatics}, 2026. \href{https://doi.org/10.1109/JBHI.2026.3665521}{doi: 10.1109/JBHI.2026.3665521}.
+% O4 / previous J3
+\item Lei Mou, Yuanyuan Gu, Yonghuai Liu, \textbf{Jianyang Xie}, Yalin Zheng, Yitian Zhao. NeiRNet: Neighborhood Regularized Network for Retinal Artery and Vein Classification in Ultra-Wide-Field Imaging. \textit{Biomedical Signal Processing and Control}, 112: 108621, 2026.
+% O5 / previous C1
+% Official proceedings page numbers pending; Scholar reports 260–270, not adopted pending publisher confirmation.
+\item Feixiang Zhou, Zhuangzhi Gao, \textbf{Jianyang Xie}, Kun Li, Fu Wang, Long Chen, Zheheng Jiang, Yitian Zhao, Yanda Meng, He Zhao, Gregory Y. H. Lip, Yalin Zheng. Hierarchical Disentangled Consistency Learning for Semi-supervised Multi-modal Medical Image Segmentation. \textit{MICCAI 2026}.
+% O6 / previous J4
+\item Jiong Zhang, Shuai Yu, Yonghuai Liu, Dan Zhang, \textbf{Jianyang Xie}, Tao Chen, Yalin Zheng, Huazhu Fu, Yitian Zhao. 3D Microvascular Reconstruction in Retinal OCT Angiography Images via Domain-Adaptive Learning. \textit{Pattern Recognition}, 165: 111494, 2025. \href{https://doi.org/10.1016/j.patcog.2025.111494}{doi: 10.1016/j.patcog.2025.111494}.
+% O7 / previous C3
+\item Yuheng Fan, \textbf{Jianyang Xie}, Yimin Luo, Yanda Meng, Savita Madhusudhan, Gregory Y. H. Lip, Li Cheng, Yalin Zheng, He Zhao. tHPM-LDM: Integrating Individual Historical Record with Population Memory in Latent Diffusion-Based Glaucoma Forecasting. \textit{MICCAI 2025}: 619--629.
+% O8 / previous C4
+\item Weicheng Liao, Zan Chen, \textbf{Jianyang Xie}, Yalin Zheng, Yuhui Ma, Yitian Zhao. A Frequency-Aware Self-Supervised Learning for Ultra-Wide-Field Image Enhancement. \textit{MICCAI 2025}: 3--13.
+% O9 / previous C5
+\item Feixiang Zhou, Zhuangzhi Gao, He Zhao, \textbf{Jianyang Xie}, Yanda Meng, Yitian Zhao, Gregory Y. H. Lip, Yalin Zheng. GLCP: Global-to-Local Connectivity Preservation for Tubular Structure Segmentation. \textit{MICCAI 2025}: 237--247.
+% O10 / previous C6
+\item Qinkai Yu, \textbf{Jianyang Xie}, Yitian Zhao, Cheng Chen, Lijun Zhang, Liming Chen, Jun Cheng, Lu Liu, Yalin Zheng, Yanda Meng. Robust Incomplete-Modality Alignment for Ophthalmic Disease Grading and Diagnosis via Labeled Optimal Transport. \textit{MICCAI 2025}: 553--563. \href{https://doi.org/10.1007/978-3-032-05182-0_54}{doi: 10.1007/978-3-032-05182-0\_54}.
+% O11 / previous J7 / original P30
+\item Yanda Meng, Yuchen Zhang, \textbf{Jianyang Xie}, Jinming Duan, Martha Joddrell, Savita Madhusudhan, Tunde Peto, Yitian Zhao, Yalin Zheng. Multi-granularity learning of explicit geometric constraint and contrast for label-efficient medical image segmentation and differentiable clinical function assessment. \textit{Medical Image Analysis}, 95: 103183, 2024.
+% O12 / previous J8
+\item Dhanach Dhirachaikulpanich, \textbf{Jianyang Xie}, Xiuju Chen, Xiaoxin Li, Savita Madhusudhan, Yalin Zheng, Nicholas A. V. Beare. Using Deep Learning to Segment Retinal Vascular Leakage and Occlusion in Retinal Vasculitis. \textit{Ocular Immunology and Inflammation}, 32(10): 2291--2298, 2024.
+% O13 / previous C9
+\item Qinkai Yu, \textbf{Jianyang Xie}, Anh Nguyen, He Zhao, Jiong Zhang, Huazhu Fu, Yitian Zhao, Yalin Zheng, Yanda Meng. CLIP-DR: Textual Knowledge-Guided Diabetic Retinopathy Grading with Ranking-Aware Prompting. \textit{MICCAI 2024}: 667--677. \href{https://doi.org/10.1007/978-3-031-72378-0_62}{doi: 10.1007/978-3-031-72378-0\_62}.
+% O14 / previous J9
+\item Yehia Ibrahim, \textbf{Jianyang Xie}, Antonella Macerollo, Rodolfo Sardone, Yaochun Shen, Vito Romano, Yalin Zheng. A Systematic Review on Retinal Biomarkers to Diagnose Dementia from OCT/OCTA Images. \textit{Journal of Alzheimer's Disease Reports}, 7(1): 1201--1235, 2023. \href{https://doi.org/10.3233/ADR-230042}{doi: 10.3233/ADR-230042}.
+% O15 / previous J10
+\item Ruili Wei, \textbf{Jianyang Xie}, Fangxia Meng, Fangping He, Jiang Liu, Yitian Zhao, Hui Liang. Serum Uric Acid Levels Are Associated with Macula Microvasculature Changes in Hypertensive White Matter Hyperintensity Patients. \textit{Current Neurovascular Research}, 20(1): 132--139, 2023. \href{https://doi.org/10.2174/1567202620666221027095220}{doi: 10.2174/1567202620666221027095220}.
+% O16 / previous J11
+\item Chuhao Tang, Yu Zhang, Tong Sun, \textbf{Jianyang Xie}, Yiyun Liu, Rongjun Liu, Zhengze Sun, Hong Qi. Prospective Clinical Study of Retinal Microvascular Alteration after ICL Implantation. \textit{Frontiers in Cell and Developmental Biology}, 11: 1115822, 2023. \href{https://doi.org/10.3389/fcell.2023.1115822}{doi: 10.3389/fcell.2023.1115822}.
+% O17 / previous C10
+\item Yanda Meng, Yuchen Zhang, \textbf{Jianyang Xie}, Jinming Duan, Yitian Zhao, Yalin Zheng. Weakly/Semi-supervised Left Ventricle Segmentation in 2D Echocardiography with Uncertain Region-Aware Contrastive Learning. \textit{PRCV 2023}: 98--109. \href{https://doi.org/10.1007/978-981-99-8558-6_9}{doi: 10.1007/978-981-99-8558-6\_9}.
+% O18 / previous J12 / original P22
+\item Wendan Tao, William Robert Kwapong, \textbf{Jianyang Xie}, Zetao Wang, Xiaonan Guo, Junfeng Liu, Chen Ye, Bo Wu, Yitian Zhao, Ming Liu. Retinal microvasculature and imaging markers of brain frailty in normal aging adults. \textit{Frontiers in Aging Neuroscience}, 14: 945964, 2022. \href{https://doi.org/10.3389/fnagi.2022.945964}{doi: 10.3389/fnagi.2022.945964}.
+% O19 / previous J13 / original P24
+\item Tingting Yang, Baikai Ma, \textbf{Jianyang Xie}, Yifan Zhou, Rongjun Liu, Hongyu Duan, Yitian Zhao, Hong Qi. Evaluation of Ocular Surface Characteristics in Dry Eye Disease With and Without Soft Contact Lens Wear: A Comparative Study. \textit{Eye \& Contact Lens: Science \& Clinical Practice}, 48(9): 377--383, 2022.
+% O20 / previous J14 / original P28
+\item Kun Lu, William Robert Kwapong, Shuai Jiang, Xuening Zhang, \textbf{Jianyang Xie}, Chen Ye, Yuying Yan, Le Cao, Yitian Zhao, Bo Wu. Differences in retinal microvasculature between large artery atherosclerosis and small artery disease: an optical coherence tomography angiography study. \textit{Frontiers in Aging Neuroscience}, 14: 1053638, 2022. \href{https://doi.org/10.3389/fnagi.2022.1053638}{doi: 10.3389/fnagi.2022.1053638}.
+% O21 / previous J15 / original P29
+\item Hongyu Duan, \textbf{Jianyang Xie}, Yifan Zhou, Hui Zhang, Yiyun Liu, Chuhao Tang, Yitian Zhao, Hong Qi. Characterization of the Retinal Microvasculature and FAZ Changes in Ischemic Stroke and Its Different Types. \textit{Translational Vision Science \& Technology}, 11(10): 21, 2022.
+% O22 / previous C11 / original P27
+\item Hanlin Liu, \textbf{Jianyang Xie}, Yonghuai Liu, Huaying Hao, Lijun Guo, Jiong Zhang, Yitian Zhao. Topology-Aware Learning for Semi-supervised Cross-domain Retinal Artery/Vein Classification. \textit{Computer Graphics International 2022}: 41--52. \href{https://doi.org/10.1007/978-3-031-23473-6_4}{doi: 10.1007/978-3-031-23473-6\_4}.
+% O23 / previous J17 / original P14
+\item Yuhui Ma, Huaying Hao, \textbf{Jianyang Xie}, Huazhu Fu, Jiong Zhang, Jianlong Yang, Zhen Wang, Jiang Liu, Yalin Zheng, Yitian Zhao. ROSE: A Retinal OCT-Angiography Vessel Segmentation Dataset and New Model. \textit{IEEE Transactions on Medical Imaging}, 40(3): 928--939, 2021.
+% O24 / previous J18 / original P23
+\item Ruili Wei, \textbf{Jianyang Xie}, Huihui Wu, Fangping He, Fangxia Meng, Jiang Liu, Hui Liang, Yitian Zhao. Superficial Macula Capillary Complexity Changes Are Associated With Disability in Neuromyelitis Optica Spectrum Disorders. \textit{Frontiers in Neurology}, 12: 724946, 2021. \href{https://doi.org/10.3389/fneur.2021.724946}{doi: 10.3389/fneur.2021.724946}.
+% O25 / previous J19 / original P25
+\item Yitian Zhao, Jinyu Zhao, Yuanyuan Gu, Bang Chen, Jiaqi Guo, \textbf{Jianyang Xie}, Qifeng Yan, Yuhui Ma, Yufei Wu, Jiong Zhang, Qinkang Lu, Jiang Liu. Outer retinal layer thickness changes in white matter hyperintensity and Parkinson's disease. \textit{Frontiers in Neuroscience}, 15: 741651, 2021. \href{https://doi.org/10.3389/fnins.2021.741651}{doi: 10.3389/fnins.2021.741651}.
+% O26 / previous J20
+\item Jinkui Hao, \textbf{Jianyang Xie}, Ri Liu, Huaying Hao, Yuhui Ma, Kun Yan, Ruirui Liu, Yalin Zheng, Jianjun Zheng, Jiang Liu, Jingfeng Zhang, Yitian Zhao. Automatic Sequence-Based Network for Lung Diseases Detection in Chest CT. \textit{Frontiers in Oncology}, 11: 781798, 2021. \href{https://doi.org/10.3389/fonc.2021.781798}{doi: 10.3389/fonc.2021.781798}.
+% O27 / previous C12 / original P15
+\item Shuai Yu, \textbf{Jianyang Xie}, Jinkui Hao, Yalin Zheng, Jiong Zhang, Yan Hu, Jiang Liu, Yitian Zhao. 3D Vessel Reconstruction in OCT-Angiography via Depth Map Estimation. \textit{ISBI 2021}: 1609--1613.
+% O28 / previous C13 / original P26
+\item Shuai Yu, Yonghuai Liu, Jiong Zhang, \textbf{Jianyang Xie}, Yalin Zheng, Jiang Liu, Yitian Zhao. Cross-domain depth estimation network for 3D vessel reconstruction in OCT angiography. \textit{MICCAI 2021}.
+% O29 / previous B1
+\item Pan Su, Xuanhao Zhang, Hao Qiu, \textbf{Jianyang Xie}, Yitian Zhao, Jiang Liu, Tianhua Chen. Applying Fuzzy Pattern Trees for the Assessment of Corneal Nerve Tortuosity. \textit{Fuzzy Logic: Recent Applications and Developments}: 131--143, 2021. \href{https://doi.org/10.1007/978-3-030-66474-9_9}{doi: 10.1007/978-3-030-66474-9\_9}.
+% O30 / previous J21 / original P12
+\item Yitian Zhao, \textbf{Jianyang Xie}, Huaizhong Zhang, Yalin Zheng, Yifan Zhao, Hong Qi, Yangchun Zhao, Pan Su, Jiang Liu, Yonghuai Liu. Retinal Vascular Network Topology Reconstruction and Artery/Vein Classification via Dominant Set Clustering. \textit{IEEE Transactions on Medical Imaging}, 39(2): 341--356, 2020.
+% O31 / previous J22 / original P18
+\item Yitian Zhao, Jiong Zhang, Ella Pereira, Yalin Zheng, Pan Su, \textbf{Jianyang Xie}, Yifan Zhao, Yonggang Shi, Hong Qi, Jiang Liu, Yonghuai Liu. Automated Tortuosity Analysis of Nerve Fibers in Corneal Confocal Microscopy. \textit{IEEE Transactions on Medical Imaging}, 39(9): 2725--2737, 2020.
+% O32 / previous J23 / original P19
+\item Pan Su, Tianhua Chen, \textbf{Jianyang Xie}, Baikai Ma, Hong Qi, Jiang Liu, Yitian Zhao. A Density and Reliability Guided Aggregation for the Assessment of Vessels and Nerve Fibres Tortuosity. \textit{IEEE Access}, 8: 139199--139211, 2020.
+% O33 / previous J24 / original P20
+\item Pan Su, Tianhua Chen, \textbf{Jianyang Xie}, Yalin Zheng, Hong Qi, D Borroni, Yitian Zhao, Jiang Liu. Corneal Nerve Tortuosity Grading via Ordered Weighted Averaging-based Feature Extraction. \textit{Medical Physics}, 47(10): 4983--4996, 2020.
+% O34 / previous J25
+% English title as indexed in Google Scholar; original article in Chinese.
+\item Baikai Ma, Kun Zhao, Siyi Ma, Rongjun Liu, Yufei Gao, Chenxi Hu, \textbf{Jianyang Xie}, Yiyun Liu, Yitian Zhao, Hong Qi. Objective Analysis of Corneal Subbasal Nerve Tortuosity and Its Changes in Patients with Dry Eye and Diabetes. \textit{Chinese Journal of Experimental Ophthalmology}: 638--644, 2019.
+% O35 / previous C16 / original P16
+\item Pan Su, Tianhua Chen, Haoyu Mao, \textbf{Jianyang Xie}, Yitian Zhao, Jiang Liu. On the Application of Preaggregation Functions to Fuzzy Pattern Tree. \textit{FUZZ-IEEE 2019}: 1--6.
+% O36 / previous C17 / original P17
+\item Pan Su, Yitian Zhao, Tianhua Chen, \textbf{Jianyang Xie}, Yifan Zhao, Hong Qi, Yalin Zheng, Jiang Liu. Exploiting Reliability-guided Aggregation for the Assessment of Curvilinear Structure Tortuosity. \textit{MICCAI 2019}: 12--20.
+% O37 / previous C18
+\item Kun Zhao, Hui Zhang, Yitian Zhao, \textbf{Jianyang Xie}, Yalin Zheng, David Borroni, Hong Qi, Jiang Liu. Automated Corneal Nerve Segmentation Using Weighted Local Phase Tensor. \textit{Medical Image Understanding and Analysis (MIUA)}: 459--469, 2019. \href{https://doi.org/10.1007/978-3-030-39343-4_39}{doi: 10.1007/978-3-030-39343-4\_39}.
+% O38 / previous C20 / original P13
+\item Yitian Zhao, \textbf{Jianyang Xie}, Pan Su, Yalin Zheng, Yonghuai Liu, Jun Cheng, Jiang Liu. Retinal Artery and Vein Classification via Dominant Sets Clustering-based Vascular Topology Estimation. \textit{MICCAI 2018}: 56--64.
+% O39 / previous C21 / original P21
+\item Zaiwang Gu, Shanshan Jiang, Jimmy Lee, \textbf{Jianyang Xie}, Jun Cheng, Jiang Liu. Automatic Localization of Optic Disc using Modified U-Net. \textit{ICCCV 2018}: 79--83.
+\end{enumerate}
+
+\end{document}

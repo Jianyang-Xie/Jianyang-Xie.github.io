@@ -32,3 +32,10 @@ GitHub Pages 设置：Settings → Pages → Deploy from a branch → main → /
 直接修改 HTML 文本；首页代表论文与 publications.html 中相同记录应一起更新。
 论文图点击可打开原尺寸图片。项目图替换时同时更新图片说明。
 没有放入个人手机号、性别或未提供的头像。
+
+## LaTeX Academic CV
+
+The homepage and HTML CV page link to `assets/cv/Jianyang_Xie_CV.pdf`.
+Edit `cv/main.tex` and push to `main`; `.github/workflows/build-cv.yml` compiles and commits the PDF, then explicitly requests a Pages rebuild. Pages remains configured as **Deploy from a branch → main → / (root)**. No personal token or new repository secret is required.
+
+The existing HTML publication list remains independently maintained. The PDF is the full current CV; changing the CV source does not rewrite the website's publication list.

@@ -1,0 +1,82 @@
+name: Build Academic CV
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'cv/**'
+      - '.github/workflows/build-cv.yml'
+  pull_request:
+    paths:
+      - 'cv/**'
+      - '.github/workflows/build-cv.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cv-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+      - name: Compile CV
+        uses: xu-cheng/latex-action@v4
+        with:
+          root_file: main.tex
+          working_directory: cv
+      - name: Prepare PDF
+        run: |
+          mkdir -p cv-artifact
+          cp cv/main.pdf cv-artifact/Jianyang_Xie_CV.pdf
+          test -s cv-artifact/Jianyang_Xie_CV.pdf
+      - uses: actions/upload-artifact@v4
+        with:
+          name: academic-cv
+          path: cv-artifact/Jianyang_Xie_CV.pdf
+          if-no-files-found: error
+          retention-days: 14
+
+  publish:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+      pages: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - name: Check source revision
+        env:
+          BUILD_SHA: ${{ github.sha }}
+        run: |
+          test "$(git rev-parse HEAD)" = "$BUILD_SHA" || {
+            echo 'The branch changed during compilation. Run this workflow again for the latest source.'
+            exit 1
+          }
+      - uses: actions/download-artifact@v4
+        with:
+          name: academic-cv
+          path: assets/cv
+      - name: Commit generated PDF
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/cv/Jianyang_Xie_CV.pdf
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update compiled Academic CV'
+            git push origin HEAD:main
+          fi
+      # A GITHUB_TOKEN push does not trigger a Pages build on its own.
+      - name: Rebuild GitHub Pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds"
