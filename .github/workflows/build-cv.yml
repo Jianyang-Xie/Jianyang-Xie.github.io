@@ -30,6 +30,16 @@ jobs:
         with:
           root_file: main.tex
           working_directory: cv
+      - name: Report compilation errors
+        if: failure()
+        run: |
+          python3 - <<'PYLOG'
+          from pathlib import Path
+          p = Path('cv/main.log')
+          text = p.read_text(errors='replace')[-6000:] if p.exists() else 'No LaTeX log was produced.'
+          message = text.replace('%', '%25').replace('\r', '%0D').replace('\n', '%0A')
+          print('::error title=LaTeX compilation details::' + message)
+          PYLOG
       - name: Prepare PDF
         run: |
           mkdir -p cv-artifact
